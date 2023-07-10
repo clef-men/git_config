@@ -1,0 +1,14 @@
+[core]
+	editor = vim
+
+[init]
+	defaultBranch = main
+
+[user]
+        email = clef-men@orange.fr
+        user = clef-men
+
+[alias]
+	s = status
+	c = commit
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
